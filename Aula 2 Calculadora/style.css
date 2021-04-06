@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-color: yellow;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .calculadora {
+    width: 960px;
+    height: 720px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/13/16/13/pixel-3316924_960_720.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    background-position: center 
+  }
+  
+  h2 {
+    position: absolute;
+    font-size:32px;
+    font-weight:bold;
+    top: 142px;
+    text-align: center;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }

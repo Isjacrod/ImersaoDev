@@ -1,0 +1,111 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://image.freepik.com/vetores-gratis/jogo-da-velha-icone-de-contorno-linear-de-neon_7280-2421.jpg');
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th, tr, td {
+    border: solid 1px pink;
+    color: white;
+    background-color: rgba(17, 93, 233, 0.753);
+}
+
+td img {
+  height: 40px;
+  width: 40px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.center-column {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nome-jogador {
+  margin: 10px;
+  height: 50px;
+  width: 300px;
+  border: 1px solid blueviolet;
+  border-radius: 3px;
+}
+
+#formulario {
+  color: white;
+  padding: 5px;
+  width: 400px;
+  background-color: rgba(17, 93, 233, 0.753);
+}
+
+#formulario button {
+  background-color: purple;
+  color: white;
+  padding: 15px;
+  border: 1px none white;
+  border-radius: 5px;
+}
+
+#formulario button:hover {
+  background-color: magenta;
+}
+
+#tabuleiro td {
+  width: 50px;
+}
+
+#tabuleiro tr {
+  height: 35px;
+  width: 200px;
+}
+
+#div-jogo-velha {
+  width: 200px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Placar do Jogo Da Velha</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Imersão Dev - Aula 06
+    </title>
+</head>
+
+<body>
+    <h1>Tabela de classificação</h1>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Avatar</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan='3'>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+              <tr>
+    <td>Paulo</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>7</td>
+    <td><button onClick="adicionarVitoria(0)">Vitória</button></td>
+    <td><button onClick="adicionarEmpate(0)">Empate</button></td>
+    <td><button onClick="adicionarDerrota(0)">Derrota</button></td>
+  </tr>
+  <tr>
+    <td>Rafa</td>
+    <td>1</td>
+    <td>4</td>
+    <td>2</td>
+    <td>7</td>
+    <td><button onClick="adicionarVitoria(1)">Vitória</button></td>
+    <td><button onClick="adicionarEmpate(1)">Empate</button></td>
+    <td><button onClick="adicionarDerrota(1)">Derrota</button></td>
+  </tr>
+        </tbody>
+    </table>
+  <div id="formulario" class="center-column">
+    <label for="nome-jogador"> Adicione um novo jogador </label>
+    <input id="nome-jogador" type="text" placeholder="nome" name="campo-nome-jogador">
+    <button onclick="enviarNome()"> Adicionar Jogador </button>
+  </div>
+  <div class="center-column" id="div-jogo-velha">
+    <table>
+      <thead>
+        <tr> 
+          <th colspan='3' id="cabecalho"> Jogo Da Velha </th>
+        </tr>
+      </thead>
+      <tbody id="tabuleiro">
+      </tbody>
+    </table>
+    <input type="number" id="jogada" placeholder="número de 1 a 9" max='9'>
+    <button type="button" id="ia" onclick="jogoIa()" disabled="true"> Jogar Novamente </button>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

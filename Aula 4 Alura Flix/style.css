@@ -1,0 +1,143 @@
+body {
+  font-family: sans-serif;
+  text-align:center;
+  background-image: linear-gradient(blue, violet);
+  background-position: center center;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  min-height : 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 15%;
+  position : static;
+  bottom : 10px;
+  right : 10px;
+}
+
+.alura-logo {
+  width: 5%;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+body > img {
+  margin: 0 10px;
+  
+}
+
+#items {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin: 10px auto;
+} 
+
+.animes-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-moldura {
+  width: 179px;
+  height: 248px;
+  border-radius: 5px;
+}
+
+.img-moldura:hover {
+  box-shadow: 01px 0px 12px 0px black;
+  transform: scale(1.1);
+}
+
+.animes-item p {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+#info-container {
+  width: 100%;
+  height: 100%;
+  margin: 5px auto;
+  position: fixed;
+  top: 5px;
+  justify-content: center;
+}
+
+.info-align {
+  width: 90%;
+  height: 80%;
+}
+
+#info {
+  width: 100%;
+  height: 85vh;
+  border: 1px solid fuchsia;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 1px black;
+  background-color: white;
+}
+
+#fecha-info {
+  position: absolute;
+  margin: 5px auto;
+  background-color: hotpink;
+  border: 2px solid purple;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: aqua;
+}
+
+.info-exibe {
+  display: flex;
+}
+
+.info-oculta {
+  display: none;
+}
+
+.moldura-cover {
+  visibility: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0 , 0, 0.3);
+  border-radius: 5px;
+}
+
+.moldura-cover button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.moldura-cover button:hover {
+  filter: brightness(150%);
+}
+
+.img-moldura:hover .moldura-cover {
+  visibility: initial;
+}

@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://cdn.pixabay.com/photo/2012/12/11/21/28/mixture-69523_960_720.jpg');
+  background-color: yellow;
+  background-size: 200vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: black;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: blueviolet;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 400px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+.aviso {
+  color: red;
+  text-align: center;
+}

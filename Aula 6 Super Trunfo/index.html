@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pop Trunfo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 07
+    </title>
+</head>
+
+<body>
+    <div class="container">
+      
+      <div id="cenario1">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Pop Trunfo</h1>
+        <p> A cada rodada alguns atributos são bloqueados </p>
+        <p> Tente aferir qual o valor maior com base em seus conhecimentos </p>
+        <p> Quem fizer 10 pontos primeiro ganha </p>
+        <button onclick="iniciarJogo()" id="btnIniciar" class="btn-esquema1">Iniciar Jogo</button>
+        <div id="grade-de-cartas"></div>
+      </div>
+      
+      <div id="cenario2">
+        <h2>Escolha um atributo</h2>
+        <div id="cartas" class="oculta-span-values">
+          <div id="carta-jogador" class="carta-design esquema1"></div>
+          <div id="carta-maquina" class="carta-design esquema1"></div>
+        </div>  
+        <div id="status-disputa"> </div>
+          <button type="button" id="btnEscolher" class="btn-esquema1" onclick="verificar()">Verificar</button>
+      </div>
+    </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

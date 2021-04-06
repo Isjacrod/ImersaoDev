@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://64.media.tumblr.com/2c9f025b44b55efa7ae207d2813dc3df/3710e197fad51a0d-56/s500x750/2124cdf176571ae0bf2e0deae0c1b9d1ee0f8098.gifv');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 50vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-shadow: -2px -2px purple;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    font-size : larger;
+    font-weight : bold;
+    text-shadow : -1px -1px purple;
+    margin-top: 10px;
+  }
+  
+  .page-logo {
+    width: 200px;
+    position : absolute;
+    bottom : 0px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
+
+.center {
+  display : flex;
+  justify-content : center;
+  margin-top : 10px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.bt {
+  padding : 6px;
+  margin : 3px;
+  cursor : pointer;
+  background-color : white;
+  border-color : purple;
+  border-radius : 5px;
+}
+
+.big-number {
+  margin-top : 10px;
+  margin-bottom : 10px;
+  display : block;
+  font-size: xx-large;
+  color : purple;
+  text-shadow : 1px 1px white;
+  font-weight : bold;
+}
