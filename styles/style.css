@@ -1,0 +1,93 @@
+body {
+  background-color: #03A9F4;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url('https://i.gifer.com/WV5g.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 110px;
+  border-radius: 5px;
+}
+
+section {
+  margin: 100px auto;
+  background-color: white;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 6px 9px 10px black;
+}
+
+#insignias {
+  background-color: #B3E5FC;
+  border: 2px solid violet;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#insignias li {
+  margin-bottom: 0.5em;
+}
+
+#me img {
+  border-radius: 100%;
+  border: 8px solid white;
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 9px 10px 1px violet;
+  transform: translateY(-50%)
+}
+
+section h1 {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#insignias h2 {
+  font-size: 1.2em;
+  margin-top: 1px;
+  color: #212121;
+}
+
+a:visited {
+  color: #757575;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #FF4081;
+}
+
+#me {
+  height: 73px;
+}
+
+#me img:hover {
+  cursor: wait;
+}
+
+#contacts img {
+  height: 25px;
+  width: 25px;
+}
+
+#contacts img:hover {
+  filter: invert(1);
+}
+
+#contacts {
+  padding: 6px;
+  display: flex;
+  justify-content: flex-end;  
+}
