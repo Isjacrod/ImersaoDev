@@ -81,7 +81,7 @@ a:hover {
   height: 25px;
   width: 25px;
   border-radius: 100%;
-  filter:invert(1);
+  filter: invert(1);
 }
 
 #contacts img:hover {
