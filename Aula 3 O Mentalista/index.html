@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - O Mentalista</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <html>
 
 <head>
@@ -17,42 +7,42 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="page-title">
-            O Mentalista
-        </h1>
-        <p class="page-subtitle">
-            Pense em um número de 1 a 100
-        </p>
-        
-      <!-- Local de Exibição do Número -->
-      <p id="local-do-numero" class="center big-number"> </p>
-        
-      <!--Botoes-->
-      <div class="botoes center">
-        <button name="menor" onclick="menor()" class="bt"> &lt (menor) </button> 
-        <button name="iniciar" onclick="iniciar()" class="bt" id="start"> iniciar </button>
-        <button name="maior" onclick="maior()" class="bt"> (maior) &gt </button>
-      </div>
       
-      <!--Area de Comentario do Mentalista-->
-        <p id="comentario" class="page-subtitle">
-      O mentalista tem só: 6 tentativas
-  <p>
+    <div class="container">
+      <h1 class="page-title">
+            O Mentalista
+      </h1>
+      <div class="v-center">  
+      <div id="interacao">
+          <p class="page-subtitle">
+              Pense em um número de 1 a 100
+          </p>
+
+          <!-- Local de Exibição do Número -->
+          <p id="local-do-numero" class="center big-number"> </p>
+
+          <!--Botoes-->
+          <div class="botoes center">
+            <button name="menor" onclick="menor()" class="bt"> &lt (menor) </button> 
+            <button name="iniciar" onclick="iniciar()" class="bt" id="start"> iniciar </button>
+            <button name="maior" onclick="maior()" class="bt"> (maior) &gt </button>
+          </div>
+
+          <!--Area de Comentario do Mentalista-->
+          <p id="comentario" class="page-subtitle">
+            O mentalista tem só: 6 tentativas
+          </p>
+      </div>
+      </div>
+      <footer>
+    <!--Imersão Dev Logo-->
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo"
+            alt="">
+  </footer>
     </div>
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
-
-  
-  <!--Imersão Dev Logo-->
-  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo"
-            alt="">
 </body>  
 
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
 </html>
