@@ -5,7 +5,7 @@ function initValues(){
   maximo = 100
   chute = maximo / 2
   novaRodada = true;
-  toggleLAndG("show");
+  toggleLAndG("hide");
 } 
 
 function iniciar() {
@@ -25,6 +25,7 @@ function instrucoes() {
   resposta = confirm(minimo + " a " + maximo + "... 1 número...\nPensou?");
   if (resposta == true) {
     changeMiddleBtn("Acertou");
+    toggleLAndG("show");
     novaRodada = false;
     adivinha();
   } else {
