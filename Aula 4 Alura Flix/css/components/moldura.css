@@ -1,0 +1,16 @@
+.img-moldura {
+    width: 179px;
+    height: 248px;
+    border-radius: 5px;
+    transition: transform 300ms ease-in-out;
+}
+
+.img-moldura:hover {
+    box-shadow: 01px 0px 12px 0px black;
+    transform: scale(1.1);
+}
+
+.img-moldura:hover .moldura-cover {
+    visibility: initial;
+}
+

@@ -53,7 +53,7 @@ for (var i = 0; i < animes.length; i++) {
   var txtBaixo = document.createElement("p");
   
   //adicionando alguns identificadores para usar no CSS
-  imgItemDiv.classList.add("animes-item");
+  imgItemDiv.classList.add("anime-item");
   imgMoldura.classList.add("img-moldura");
   molduraCover.classList.add("moldura-cover");
   infoBtn.id = "info-btn";
@@ -96,6 +96,7 @@ function fechaInfo() {
   velhoIframe.remove();
 }
 
+//SBA (Stupid background animation)
 var degrees = 127;
 const target = document.querySelector("body");
 function animaFundo() {

@@ -1,0 +1,12 @@
+.anime-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.anime-item p {
+  margin-top: 1rem 0 0;
+  font-family: sans-serif;
+  color: white;
+} 

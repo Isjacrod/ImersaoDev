@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  text-align:center;
+  background-image: linear-gradient(blue, violet);
+  background-position: center center;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  min-height : 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 15%;
+  position : static;
+  bottom : 10px;
+  right : 10px;
+}
+
+.alura-logo {
+  width: 5%;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+#items {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin: 10px auto;
+} 

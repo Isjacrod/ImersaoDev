@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - AnChan</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/components/anime-item.css">
+  <link rel="stylesheet" href="./css/components/moldura.css">
+  <link rel="stylesheet" href="./css/components/moldura-cover.css">
+  <link rel="stylesheet" href="./css/components/info-popup.css">
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
 
 <head>
     <title>
@@ -18,35 +18,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="page-title">
-          <span>AnChan</span>
-        </h1>
-      <p> Alguns animes tranquilos de assistir que eu recomendaria até para minha mãe </p>      
-      <!--Quadro de items-->
-      <div id="items"> 
-      </div>
-      <footer>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
-      </footer>
+  <div class="container">
+    <h1 class="page-title">
+      <span>AnChan</span>
+    </h1>
+    <p> Alguns animes tranquilos de assistir que eu recomendaria até para minha mãe </p>      
+    
+    <!--Quadro de items Preenchido por script-->
+    <section id="items"> </section>
+    <footer>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </footer>
+  </div>
+
+  <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+  <!--Popup de informações-->
+  <div id="info-container" class="info-oculta">
+    <div class="info-align">
+      <button onclick="fechaInfo()" id="fecha-info">X</button>
+      <section id="iframe-info">
+        <!--<iframe id="info" src=""></iframe> -->
+      </section>
     </div>
-    <a href="https://alura.com.br/" target="_blank">
-       <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    </a>
-  
-    <div id="info-container" class="info-oculta">
-      <div class="info-align">
-        <button onclick="fechaInfo()" id="fecha-info">X</button>
-        <div id="iframe-info">
-          <!--<iframe id="info" src=""></iframe> -->
-        </div>
-      </div>
-    </div>
+  </div>
 </body>
 
-</html>
 <!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
+<script  src="./script.js"></script>
 </html>
