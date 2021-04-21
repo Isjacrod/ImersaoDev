@@ -11,6 +11,6 @@
 }
 
 .img-moldura:hover .moldura-cover {
-    visibility: initial;
+    display: flex;
 }
 

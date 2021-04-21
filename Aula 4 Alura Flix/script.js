@@ -77,7 +77,7 @@ for (var i = 0; i < animes.length; i++) {
 
 //Exibe um iframe com informações ou trailer
 function exibeInfo(url) {
-  var divIframe = document.getElementById("iframe-info");
+  var divIframe = document.getElementById("info-wrapper");
   var novoIframe = document.createElement("iframe");
   novoIframe.setAttribute("src", url);
   novoIframe.id = "info";
