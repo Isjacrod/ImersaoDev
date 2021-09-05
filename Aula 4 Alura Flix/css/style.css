@@ -44,4 +44,5 @@ button {
    justify-content: space-evenly;
    flex-wrap: wrap;
    margin: 10px auto;
+   padding: 1%;
 } 
